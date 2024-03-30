@@ -10,6 +10,8 @@ pub struct Node<T: Default> {
     pub val: T
 }
 
+
+
 impl <T:Default> Node<T> {
     pub fn get_prev_node (&self) -> Option<Rc<RefCell<Node<T>>>> {
         let prev_node = self.prev.clone()?;

@@ -11,6 +11,9 @@ fn main() {
         d_lined_list.push(i);
     }
 
+    d_lined_list.insert_at(0, 54).unwrap();
+    d_lined_list.insert_at(4, 10).unwrap();
+
     d_lined_list.into_iter()
         .for_each(|val|
             println!("Vals {}",val.borrow_mut().val)
