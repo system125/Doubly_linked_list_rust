@@ -1,5 +1,5 @@
 use std::{ 
- cell::{
+  cell::{
         Ref, 
         RefCell}, rc::{Rc, Weak} 
     };
@@ -171,8 +171,7 @@ impl <T: Default + Copy + Clone> Doubly_Linked_List<T> {
         let current_count = 0;
 
         loop {
-
-
+            
         }
         None
     }
